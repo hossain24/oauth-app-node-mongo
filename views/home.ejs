@@ -9,20 +9,38 @@
     <link rel="stylesheet" type="text/css" media="screen" href="./styles.css" />
     <style>
         body {
-            background: whitesmoke
+            background: antiquewhite
         }
 
         .header {
             text-align: center
+        }
+
+        nav li {
+            list-style-type: none;
+
+        }
+
+        nav a {
+            text-decoration: none;
+            font-size: 18px;
+            display: block;
         }
     </style>
 </head>
 
 <body>
     <div class="header">
-        <h4>Not decided yet!</h4>
-        <p>This is the home page</p>
-        <a href="/auth/login">Login</a>
+        <h2>This is a simple landing page, but!!!</h2>
+        <p>This web page will lead you to some small projects, deployed on multiple clouds e.g. firebase, heroku.
+            What you can see them as a list down below.</p>
+        <nav>
+            <ul>
+                <li><a href="/auth/login">OAuth</a></li>
+                <li><a href="https://hill-track-shop.herokuapp.com/">WebShop</a></li>
+                <li><a href="https://hill-track.firebaseapp.com">EasyPlanner</a></li>
+            </ul>
+        </nav>
     </div>
 
 </body>

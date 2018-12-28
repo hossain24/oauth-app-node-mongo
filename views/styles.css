@@ -5,3 +5,7 @@ body{
 .header{
     text-align: center
 }
+
+nav ul li a {
+    list-style-type: none;
+}
